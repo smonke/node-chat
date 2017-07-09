@@ -1,3 +1,4 @@
+[![Code Climate](https://codeclimate.com/github/codeclimate/codeclimate/badges/gpa.svg)](https://codeclimate.com/github/smonke/node-chat/codeclimate)
 # Example node-app using express and socket.io
 
 ## start locally 
