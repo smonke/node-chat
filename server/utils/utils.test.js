@@ -20,7 +20,6 @@ describe ('generateLocationMessage', () => {
         var lat = '1';
         var long = '1';
         var url = 'https://www.google.de/maps?q='
-        
         var locationMessage = generateLocationMessage(from, lat, long);
 
         expect(locationMessage.createdAt).toBeA('number');
