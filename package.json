@@ -10,7 +10,7 @@
         "dev-watch": "nodemon server/server.js"
     },
     "engines": {
-        "node": "6.10.3"
+        "node": "7.10.1"
     },
     "license": "MIT",
     "dependencies": {
