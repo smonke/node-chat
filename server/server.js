@@ -22,6 +22,13 @@ io.on('connection', (socket) => {
       callback('Name and room name are required')
     }
 
+    socket.join('params.room');
+    //socket.leave('The Office Fans')
+
+    // io.emit -> io.to('The Office Fans')
+    // socket.broadcast.emit -> socket.broadcast.to('The Office Fans').emit
+    // socket.emit
+
     callback();
   })
 
