@@ -6,11 +6,11 @@
         "start": "node server/server.js",
         "test": "mocha server/**/*.test.js",
         "coverage": "istanbul cover node_modules/.bin/_mocha -R server/**/*.test.js",
-        "test-watch": "nodemon --excec 'yarn test'",
+        "test-watch": "nodemon --exec 'yarn test'",
         "dev-watch": "nodemon server/server.js"
     },
     "engines": {
-        "node": "7.10.1"
+        "node": "8.1.4"
     },
     "license": "MIT",
     "dependencies": {
